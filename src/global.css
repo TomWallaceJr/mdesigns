@@ -1,0 +1,24 @@
+/* src/global.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa; /* Light background for the site */
+}
+
+a {
+  color: #b83b5e; /* Use the secondary color for links */
+  text-decoration: none; /* Optional: removes underline from links */
+}
+
+a:hover {
+  color: #f08a5d; /* Change color on hover */
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.body-padded {
+  padding-top: var(--navbar-height);
+}

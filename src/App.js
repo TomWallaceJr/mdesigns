@@ -1,18 +1,20 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import HeroImage from "./components/HeroImage";
 import PortfolioSection from "./components/PortfolioSection";
 import ContactSection from "./components/ContactSection";
 import About from "./components/About";
-import "./styles.css"; // Adjust the path based on where your CSS file is located
+import "./global.css";
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
-      <HeroImage />
+      {/* <Navbar /> */}
+      <div className='body-padded'>
+        <HeroImage />
+      </div>
       <Routes>
         <Route
           path='/'

@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioItem from "./PortfolioItem";
-import "../styles.css";
+import "./PortfolioSection.css";
 
 const PortfolioSection = () => {
   const portfolioItems = [

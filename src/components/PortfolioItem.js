@@ -1,6 +1,6 @@
 // PortfolioItem.js
 import React from "react";
-import "../styles.css";
+import "./PortfolioItem.css";
 
 const PortfolioItem = ({ title, imageUrl }) => {
   return (

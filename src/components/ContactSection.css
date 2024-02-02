@@ -1,0 +1,26 @@
+/* Assuming the gradient colors for the hero image were #6C63FF to #FF6584 */
+.contact-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #cdb7cf, #ffffff);
+  color: white;
+  text-align: center;
+  padding: 1rem 0; /* Adequate padding */
+  display: flex;
+  justify-content: center; /* Center links horizontally */
+  align-items: center; /* Center links vertically */
+  gap: 20px; /* Adequate spacing between links */
+}
+
+.contact-section a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+  color: #ffb677; /* Accent color for hover, adjust as needed */
+}

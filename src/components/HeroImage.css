@@ -1,0 +1,25 @@
+/* src/components/HeroImage.css */
+.hero-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #cdb7cf, #ffffff);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.hero-logo img {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.hero-text h1 {
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.hero-text p {
+  margin: 0;
+  font-weight: 400;
+}

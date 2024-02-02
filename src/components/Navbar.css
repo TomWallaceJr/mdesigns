@@ -1,0 +1,37 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #cdb7cf;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.nav-items {
+  padding-right: 3rem;
+}
+
+.nav-items a {
+  margin-left: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem; /* Increased font size for better visibility */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-items a:hover,
+.nav-items a:focus {
+  transform: scale(1.1); /* Slightly increase size */
+  text-decoration: underline; /* Optional: Remove underline on hover */
+}
+
+/**adjusts height and padding of navbar **/
+:root {
+  --navbar-height: 50px; /* Adjust based on the actual height of your Navbar */
+}
