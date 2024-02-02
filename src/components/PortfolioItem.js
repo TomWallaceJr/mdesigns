@@ -1,13 +1,12 @@
-// src/components/PortfolioItem.js
+// PortfolioItem.js
 import React from "react";
+import "../styles.css";
 
 const PortfolioItem = ({ title, imageUrl }) => {
   return (
-    <div className='portfolio-item relative'>
-      <img src={imageUrl} alt={title} className='w-full h-auto' />
-      <div className='overlay absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100'>
-        <p className='text-white font-bold'>{title}</p>
-      </div>
+    <div className='portfolio-item'>
+      <img src={imageUrl} alt={title} />
+      <span className='portfolio-item-title'>{title}</span>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import HeroImage from "./components/HeroImage";
 import PortfolioSection from "./components/PortfolioSection";
 import ContactSection from "./components/ContactSection";
 import About from "./components/About";
-import "./index.css"; // Adjust the path based on where your CSS file is located
+import "./styles.css"; // Adjust the path based on where your CSS file is located
 
 const App = () => {
   return (
