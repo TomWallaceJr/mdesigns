@@ -1,0 +1,23 @@
+.portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px; /* This provides spacing between items */
+}
+
+.portfolio-item {
+  flex-basis: calc(100% - 40px); /* Full width minus padding on small screens */
+  max-width: 300px; /* Max width for each portfolio item */
+  margin: 20px; /* Spacing around each item */
+  box-sizing: border-box;
+}
+
+/* Medium screens (at least 768px) */
+@media (min-width: 768px) {
+  .portfolio-item {
+    flex-basis: calc(
+      33.333% - 40px
+    ); /* Fit 3 in a row, accounting for margin */
+  }
+}

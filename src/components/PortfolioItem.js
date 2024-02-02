@@ -5,8 +5,10 @@ import "./PortfolioItem.css";
 const PortfolioItem = ({ title, imageUrl }) => {
   return (
     <div className='portfolio-item'>
-      <img src={imageUrl} alt={title} />
-      <span className='portfolio-item-title'>{title}</span>
+      <div className='portfolio-item-content'>
+        <span className='portfolio-item-title'>{title}</span>
+        <img src={imageUrl} alt={title} className='portfolio-item-image' />
+      </div>
     </div>
   );
 };

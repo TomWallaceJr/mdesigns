@@ -11,7 +11,7 @@ const HeroImage = () => {
       </div>
       <div className='hero-text'>
         <h1>Hello, I'm Melissa</h1>
-        <p>A brief introduction about Melissa's artistic journey and vision.</p>
+        <p>This webpage is still under construction!!!</p>
       </div>
     </div>
   );

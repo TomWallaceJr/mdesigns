@@ -1,0 +1,29 @@
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: 0.3s;
+}
+
+.portfolio-item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.portfolio-item-content {
+  text-align: center; /* Center the content */
+}
+
+.portfolio-item-title {
+  font-weight: bold; /* Bold print for the title */
+  margin-bottom: 15px; /* Spacing between title and image */
+  display: block; /* Ensure title takes its own line */
+}
+
+.portfolio-item-image {
+  max-width: 100%; /* Ensure image does not overflow */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Spacing below the image */
+}
